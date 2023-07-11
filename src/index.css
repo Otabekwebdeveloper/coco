@@ -19,6 +19,7 @@
   --text-color: #757B8A;
   --text-color2: #101010;
   --text-color3: #fff;
+  --text-color4: #d4d9e833;
   --transition-hover: 400ms;
   --border: 2px solid #EB6E46;
 }
@@ -126,7 +127,34 @@
 /* END HEADER SECTION */
 
 /* START BRAND */
-/* .swipper_js{
 
-} */
+.swipper_js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.swipper_js .mySwiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 0px 76px 0px;
+}
+
+.swipper_js .partner{
+  box-shadow: 0px 30px 40px 0px var(  --text-color4); 
+  width: 176px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* END BRAND */
+
+/* START FEATURES */
+
+
+
+/* END FEATURES */

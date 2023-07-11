@@ -49,7 +49,8 @@ function Brands() {
   return (
     <div className="swipper_js">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={50}
+        slidesPerView={6}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -58,7 +59,6 @@ function Brands() {
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
-        
       >
         {partners.map((partner) => (
           <SwiperSlide className="partner">
