@@ -1,0 +1,132 @@
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', 'Inter';
+}
+
+/* START ROOT */
+
+:root {
+  --color-bg: #FFF1ED;
+  --color-bg3: #EB6E46;
+  --color-hover: #fff;
+  --text-color: #757B8A;
+  --text-color2: #101010;
+  --text-color3: #fff;
+  --transition-hover: 400ms;
+  --border: 2px solid #EB6E46;
+}
+
+/* END ROOT */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* START HEADER SECTION */
+
+.header_section {
+  background: var(--color-bg);
+  width: 100%;
+  height: 798px;
+}
+
+.section_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section_main .main .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 114px;
+}
+
+.section_main .main .menu .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_main .main .menu .links {
+  display: flex;
+  margin: 65px;
+  flex-wrap: wrap;
+}
+
+.section_main .main .menu .links a {
+  font-family: "Inter";
+  margin: 22px;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: var(--transition-hover);
+}
+
+.section_main .main .menu .links a:hover {
+  color: #EB6E46;
+  font-weight: 800;
+}
+
+.section_main .main .main_left {
+  margin-top: 90px;
+}
+
+.section_main .main .main_left h1 {
+  width: 578px;
+  color: var(--text-color2);
+  font-family: "Archivo";
+  font-size: 72px;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.section_main .main .main_left p {
+  width: 456px;
+  color: var(--text-color);
+  margin-top: 32px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section_main .main .main_left .btn img {
+  transform: rotate(-20deg);
+}
+
+.section_main .main .main_left .btn a {
+  text-decoration: none;
+  background: var(--color-bg3);
+  padding: 16px 32px 16px 32px;
+  border-radius: 100px;
+  color: var(--color-bg);
+  transition: var(--transition-hover);
+}
+
+.section_main .main .main_left .btn a:hover {
+  background: none;
+  border: var(--border);
+  color: var(--color-bg3);
+}
+
+.section_main .main_right img {
+  height: 684px;
+}
+
+/* END HEADER SECTION */
+
+/* START BRAND */
+/* .swipper_js{
+
+} */
+/* END BRAND */
