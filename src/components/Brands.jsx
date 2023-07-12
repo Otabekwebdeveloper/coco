@@ -50,13 +50,12 @@ function Brands() {
     <div className="swipper_js">
       <Swiper
         spaceBetween={50}
-        slidesPerView={6}
+        slidesPerView={8}
+        centeredSlides={true}
         autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
+          delay: 2500,
+          disableOnInteraction: true,
         }}
-        loop={true}
-        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >

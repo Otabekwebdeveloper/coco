@@ -143,14 +143,16 @@
 }
 
 .swipper_js .partner{
-  box-shadow: 0px 30px 40px 0px var(  --text-color4); 
+  box-shadow: 0px 30px 40px 0px var(--text-color4); 
   width: 176px;
   height: 96px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.swiper-home{
+  width: 100%;
+}
 /* END BRAND */
 
 /* START FEATURES */
