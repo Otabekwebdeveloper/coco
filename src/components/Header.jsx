@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <div className="header_section">
         <div className="container">
-          <div className="section_main">
+          <div className="section_main container">
             {/* Chap taraf */}
             <div className="main">
               <div className="menu">
