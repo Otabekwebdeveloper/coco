@@ -28,7 +28,7 @@ export default function Strategies() {
           {Strategies.map((strategy) => (
             <h1>{strategy}</h1>
           ))}
-        </div>
+        </div>fsaefsfawdad
       </div>
     </div>
   );
