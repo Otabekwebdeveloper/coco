@@ -52,7 +52,7 @@ export default class Brands extends Component {
       <div className="swiper_js">
         <Slider {...settings}>
           {partners?.map((partner) => (
-            <div className="swiper">
+            <div className="swiper" key={partner.img}>
               <img src={partner.img} alt="" />
             </div>
           ))}

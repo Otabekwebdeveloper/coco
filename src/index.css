@@ -409,6 +409,10 @@
   justify-content: space-between;
 }
 
+.groups .group {
+  flex-wrap: wrap;
+}
+
 .groups .group h1 {
   margin-top: 16px;
   margin-bottom: 8px;
@@ -416,11 +420,70 @@
   font-size: 24px;
   font-weight: 700;
 }
-.groups .group p{
+
+.groups .group p {
   font-family: 'Inter';
   font-size: 16px;
   font-weight: 500;
   color: var(--text-color);
 }
 
+.groups .group img {
+  transition: var(--transition-hover);
+}
+
+.groups .group img:hover {
+  transform: scale(1);
+}
+
 /* END GROUP SECTION */
+
+
+/* Faqs Page started */
+.features {
+  margin-bottom: 40px;
+}
+
+.title1 {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.faqs-title {
+  text-align: center;
+  margin-bottom: 72px;
+  font-family: Archivo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.isOpen {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.text_answer {
+  width: 805px;
+  padding-top: 16px;
+  color: #101010;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.notOpen {
+  color: #757B8A;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}

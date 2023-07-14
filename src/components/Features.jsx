@@ -33,7 +33,7 @@ export default function Features() {
       </div>
       <div className="flex">
         {box.map((item) => (
-          <div className="box1">
+          <div className="box1" key={item.title}>
             <div className="icon">{item.img}</div>
             <h1>{item.title}</h1>
             <p>{item.text}</p>

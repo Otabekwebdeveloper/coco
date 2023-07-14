@@ -40,7 +40,7 @@ export default function Group() {
       </div>
       <div className="groups">
         {groups.map((group) => (
-          <div className="group">
+          <div className="group" key={group.name}>
             <img src={group.img} alt="" />
             <h1>{group.name}</h1>
             <p>{group.job}</p>
